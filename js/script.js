@@ -17,8 +17,6 @@ for (var i = 0; i < populationArray.length; i++) {
  }
 
 }
-
-
 if((populationArray[populationArray.length-1]<100000&&populationArray[populationArray.length-2]<100000&&populationArray[populationArray.length-3]<100000&&maxPopulation<100000)||isOverPopulated===false)?    console.log("Small cities!!!") : 
 console.log("“Large cities!!!");
 
